@@ -2,7 +2,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Workflow                  # CRD - Workflow
 metadata:
-  generateName: hello-world-    # workflow 이름
+  generateName: hello-world    # workflow 이름
 spec:
   entrypoint: whalesay          # workflow 시작점
   templates:
